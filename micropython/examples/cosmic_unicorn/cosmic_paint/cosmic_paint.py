@@ -1,6 +1,6 @@
 import os
-from microdot_asyncio import Microdot, send_file
-from microdot_asyncio_websocket import with_websocket
+from microdot import Microdot, send_file
+from microdot.websocket import with_websocket
 from phew import connect_to_wifi
 from cosmic import CosmicUnicorn
 from picographics import PicoGraphics, DISPLAY_COSMIC_UNICORN as DISPLAY
